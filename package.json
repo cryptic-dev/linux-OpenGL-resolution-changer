@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cryptic-jsdev/linux-OpenGL-resolution-changer#readme",
   "dependencies": {
-    "iohook": "^0.6.6"
+    "iohook": "^0.6.6",
+    "yargs": "^16.0.3"
   }
 }
