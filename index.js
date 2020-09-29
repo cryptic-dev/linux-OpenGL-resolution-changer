@@ -65,14 +65,11 @@ async function changeRes() {
 
 //listen to key strokes and fire the changeRes() function
 hook.on("keypress", (event) => {
-  //if super + D is pressed
-  if (event.rawcode == 100 && event.metaKey) {
-    changeRes().catch((e) => {
-      console.log(e);
-    });
-  }
-  //or alt + tab is pressed
-  else if (event.rawcode == 65289 && event.altKey) {
+  //if super + D or alt + tab is pressed
+  if (
+    (event.rawcode == 100 && event.metaKey) ||
+    (event.rawcode == 65289 && event.altKey)
+  ) {
     changeRes().catch((e) => {
       console.log(e);
     });
