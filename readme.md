@@ -4,6 +4,7 @@ If you play games or run fullscreen openGL software on linux in a different reso
 
 ## how it works:
 
+- Node and npm must be installed
 - Clone the repo
   `git clone https://github.com/cryptic-jsdev/linux-OpenGL-resolution-changer`
 - Navigate into the project's directory
