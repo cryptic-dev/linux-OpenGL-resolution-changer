@@ -4,7 +4,11 @@ If you play games or run fullscreen openGL software on linux in a different reso
 
 ## how it works:
 
-`git clone https://github.com/cryptic-jsdev/linux-OpenGL-resolution-changer`
-`cd linux-OpenGL-resolution-changer`
-`npm install`
-`node index`
+- Clone the repo
+  `git clone https://github.com/cryptic-jsdev/linux-OpenGL-resolution-changer`
+- Navigate into the project's directory
+  `cd linux-OpenGL-resolution-changer`
+- Install the rquired dependency using npm
+  `npm install`
+- Run the script
+  `node index`
