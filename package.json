@@ -1,0 +1,23 @@
+{
+  "name": "resChanger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptic-jsdev/linux-OpenGL-resolution-changer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryptic-jsdev/linux-OpenGL-resolution-changer/issues"
+  },
+  "homepage": "https://github.com/cryptic-jsdev/linux-OpenGL-resolution-changer#readme",
+  "dependencies": {
+    "iohook": "^0.6.6"
+  }
+}
