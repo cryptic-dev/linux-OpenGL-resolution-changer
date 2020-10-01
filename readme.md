@@ -11,5 +11,5 @@ If you play games or run fullscreen openGL software on linux in a different reso
   `cd linux-OpenGL-resolution-changer`
 - Install the rquired dependencies using npm
   `npm install`
-- Run the script with the arguments --res1 and --res2 to toggle between the two resolutions, example below:
+- Run the script with the arguments --res1 and --res2 to toggle between the two resolutions, example:
   `node index --res1 1920x1080 --res2 1280x720`
