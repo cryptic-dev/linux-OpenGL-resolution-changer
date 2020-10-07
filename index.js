@@ -3,8 +3,7 @@ const argv = require("yargs").argv;
 const { exec } = require("child_process");
 
 if (!argv.res1 || !argv.res2) {
-  console.log("missing arguments");
-  process.kill(process.pid, 2);
+  throw "missing arguments";
 }
 
 const res1 = argv.res1;
